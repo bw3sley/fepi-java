@@ -13,9 +13,17 @@ public class Vaca extends Animal {
         return isMilking;
     }
 
-    public void milk() {
-        System.out.println("A vaca está sendo ordenhada.");
-
-        this.isMilking = true;
+    public void setIsMilkingStatus() {
+    	if (isMilking) {
+    		System.out.println("A vaca está sendo ordenhada.");
+    		
+    		this.isMilking = true;    		
+    	}
+    	
+    	else {
+    		System.out.println("A vaca está sendo ordenhada.");
+    		
+    		this.isMilking = true;
+    	}
     }
 }

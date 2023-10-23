@@ -13,7 +13,7 @@ public class Lavoura extends Area {
         return amountOfVegetables;
     }
 
-		public void setAmountOfVegetables(int amountOfVegetables) {
-				this.amountOfVegetables = amountOfVegetables;
-		}
+	public void setAmountOfVegetables(int amountOfVegetables) {
+		this.amountOfVegetables = amountOfVegetables;
+	}
 }

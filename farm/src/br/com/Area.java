@@ -27,9 +27,9 @@ public class Area {
 
     public double calcularRendimento(String type, double value) {
         if (type == "lavoura") {
-						return value * 2;
-				 }
+			return value * 2;
+		 }
 
-				return value * 1.2;
+		return value * 1.2;
     }
 }

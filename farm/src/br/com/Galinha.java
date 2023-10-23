@@ -13,9 +13,17 @@ public class Galinha extends Animal {
         return isLayingEggs;
     }
 
-    public void layEggs() {
-        System.out.println("A galinha está botando um ovo.");
-
-        this.isLayingEggs = true;
+    public void setIsLayingEggs() {
+    	if (isLayingEggs) {
+    		System.out.println("A galinha parou de botar ovos.");
+    		
+    		this.isLayingEggs = false;    		
+    	}
+    	
+    	else {
+			System.out.println("A galinha começou a botar ovos.");
+    		
+    		this.isLayingEggs = true;    		
+    	}
     }
 }

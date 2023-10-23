@@ -13,7 +13,7 @@ public class Pasto extends Area {
         return amountOfAnimalsOnMe;
     }
 
-		public void setAmountOfAnimalsOnMe(int amountOfAnimalsOnMe) {
-				this.amountOfAnimalsOnMe = amountOfAnimalsOnMe;
-		}
+	public void setAmountOfAnimalsOnMe(int amountOfAnimalsOnMe) {
+		this.amountOfAnimalsOnMe = amountOfAnimalsOnMe;
+	}
 }

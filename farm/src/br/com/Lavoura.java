@@ -3,8 +3,8 @@ package br.com;
 public class Lavoura extends Area {
     private int amountOfVegetables;
 
-    public Lavoura(double title, String type, int amountOfVegetables) {
-        super(title, type);
+    public Lavoura(double size, String type, int amountOfVegetables) {
+        super(size, type);
 
         this.amountOfVegetables = amountOfVegetables;
     }

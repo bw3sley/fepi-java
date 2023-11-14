@@ -51,7 +51,15 @@ public class Sensei {
         this.village = village;
     }
 
-    public void setStudents(List<Ninja> students) {
-        this.students = students;
+    public void addNewStudent(Jutsu jutsu) {
+        students.add(jutsu);
+    }
+
+    public void displayJutsus() {
+        System.out.println("Students of " + name + ":");
+
+        for (Ninja student : students) {
+            System.out.println("Name: " + students.getName() + ", Description: " + students.getDescription());
+        }
     }
 }

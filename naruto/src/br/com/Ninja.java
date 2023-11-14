@@ -14,9 +14,9 @@ public class Ninja {
         this.age = age;
         this.clan = clan;
         this.village = village;
-        this.jutsu = new ArrayList<>();
+        this.jutsus = new ArrayList<>();
     }
-    
+
     public String getName() {
         return name;
     }
@@ -31,10 +31,6 @@ public class Ninja {
 
     public Village getVillage() {
         return village;
-    }
-
-    public List<Jutsu> getJutsu() {
-        return jutsu;
     }
 
     public void setName(String name) {
@@ -53,11 +49,15 @@ public class Ninja {
         this.village = village;
     }
 
-    public void setJutsu(List<Jutsu> jutsu) {
-        this.jutsu = jutsu;
+    public void learnNewJutsu(Jutsu jutsu) {
+        jutsus.add(jutsu);
     }
 
-    public void learnJutsu(Jutsu jutsu) {
-        jutsus.add(jutsu);
+    public void displayJutsus() {
+        System.out.println("Jutsus of " + name + ":");
+
+        for (Jutsu jutsu : jutsus) {
+            System.out.println("Name: " + jutsu.getName() + ", Description: " + jutsu.getDescription());
+        }
     }
 }

@@ -1,6 +1,11 @@
+import java.util.ArrayList;
+
+import java.util.List;
+
 public class Clan {
     private String name;
     private String symbol;
+    private List<Ninja> ninjas;
 
     public Clan(String name, String symbol) {
         this.name = name;
@@ -21,5 +26,9 @@ public class Clan {
 
     public void setSymbol(String symbol) {
         this.symbol = symbol;
+    }
+
+    public addNewNinja(Ninja ninja) {
+        ninjas.add(ninja);
     }
 }

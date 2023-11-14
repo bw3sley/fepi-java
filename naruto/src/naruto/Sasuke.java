@@ -1,4 +1,4 @@
-import java.util.List;
+package naruto;
 
 public class Sasuke extends Ninja {
     private boolean hasSharingan;

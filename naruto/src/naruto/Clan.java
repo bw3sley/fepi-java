@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package naruto;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class Clan {
         this.symbol = symbol;
     }
 
-    public String getName() {
+	public String getName() {
         return name;
     }
 
@@ -28,7 +28,7 @@ public class Clan {
         this.symbol = symbol;
     }
 
-    public addNewNinja(Ninja ninja) {
+    public void addNewNinja(Ninja ninja) {
         ninjas.add(ninja);
     }
 }

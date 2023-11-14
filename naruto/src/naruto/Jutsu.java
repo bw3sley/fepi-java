@@ -1,3 +1,5 @@
+package naruto;
+
 public class Jutsu {
     private String name;
     private String description;

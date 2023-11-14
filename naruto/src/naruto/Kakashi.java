@@ -1,3 +1,5 @@
+package naruto;
+
 import java.util.List;
 
 public class Kakashi extends Sensei {
@@ -8,7 +10,7 @@ public class Kakashi extends Sensei {
         this.specialTechnique = specialTechnique;
     }
 
-    public String getSpecialTechnique() {
+	public String getSpecialTechnique() {
         return specialTechnique;
     }
 

@@ -1,3 +1,5 @@
+package naruto;
+
 public class Biju {
     private String name;
     private int tails;

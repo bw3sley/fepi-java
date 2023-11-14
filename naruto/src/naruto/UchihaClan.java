@@ -1,3 +1,5 @@
+package naruto;
+
 import java.util.List;
 
 public class UchihaClan extends Clan {

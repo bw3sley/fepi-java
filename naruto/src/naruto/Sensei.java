@@ -1,3 +1,5 @@
+package naruto;
+
 import java.util.List;
 
 public class Sensei {
@@ -31,10 +33,6 @@ public class Sensei {
         return village;
     }
 
-    public List<Ninja> getStudents() {
-        return students;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -51,15 +49,15 @@ public class Sensei {
         this.village = village;
     }
 
-    public void addNewStudent(Jutsu jutsu) {
-        students.add(jutsu);
+    public void addNewStudent(Ninja ninja) {
+        students.add(ninja);
     }
 
-    public void displayJutsus() {
+    public void displayStudents() {
         System.out.println("Students of " + name + ":");
 
         for (Ninja student : students) {
-            System.out.println("Name: " + students.getName() + ", Description: " + students.getDescription());
+            System.out.println("Name: " + student.getName() + ", Clan: " + student.getClan().getName());
         }
     }
 }

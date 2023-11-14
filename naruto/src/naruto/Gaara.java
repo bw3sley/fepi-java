@@ -1,4 +1,4 @@
-import java.util.List;
+package naruto;
 
 public class Gaara extends Ninja {
     private boolean hasShukaku;

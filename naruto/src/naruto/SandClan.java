@@ -1,3 +1,5 @@
+package naruto;
+
 import java.util.List;
 
 public class SandClan extends Clan {

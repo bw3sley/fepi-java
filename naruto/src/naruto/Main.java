@@ -26,12 +26,6 @@ public class Main {
  
         System.out.println("\nInformações do Sensei Kakashi:");
         kakashi.showSenseiDetails();
-
-        System.out.println("Nome: " + kakashi.getName());
-        System.out.println("Clã: " + kakashi.getClan().getName());
-        System.out.println("Vila: " + kakashi.getVillage().getName());
-        System.out.println("Técnica especial: " + kakashi.getSpecialTechnique());
-        kakashi.displayStudents();
     }
 }
  

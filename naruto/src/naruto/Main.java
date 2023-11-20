@@ -19,20 +19,14 @@ public class Main {
         sasuke.learnNewJutsu(new Jutsu("Chidori", "Um jutsu que utiliza eletricidade."));
 
         System.out.println("Informações de Naruto:");
-        System.out.println("Nome: " + naruto.getName());
-        System.out.println("Clã: " + naruto.getClan().getName());
-        System.out.println("Vila: " + naruto.getVillage().getName());
-        System.out.println("É Hokage? " + naruto.getIsHokage());
-        naruto.displayJutsus();
+        naruto.showNinjaDetails();
  
         System.out.println("\nInformações de Sasuke:");
-        System.out.println("Nome: " + sasuke.getName());
-        System.out.println("Clã: " + sasuke.getClan().getName());
-        System.out.println("Vila: " + sasuke.getVillage().getName());
-        System.out.println("Possui Sharingan? " + sasuke.hasSharingan());
-        sasuke.displayJutsus();
+        sasuke.showNinjaDetails();
  
         System.out.println("\nInformações do Sensei Kakashi:");
+        kakashi.showSenseiDetails();
+
         System.out.println("Nome: " + kakashi.getName());
         System.out.println("Clã: " + kakashi.getClan().getName());
         System.out.println("Vila: " + kakashi.getVillage().getName());

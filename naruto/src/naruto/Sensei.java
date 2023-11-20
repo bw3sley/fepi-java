@@ -60,4 +60,13 @@ public class Sensei {
             System.out.println("Name: " + student.getName() + ", Clan: " + student.getClan().getName());
         }
     }
+
+    public void showSenseiDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Idade: " + age);
+        System.out.println("Clan: " + clan.getName() + " - " + clan.getSymbol());
+        System.out.println("Village: " + village.getName());
+
+        displayStudents();
+    }
 }

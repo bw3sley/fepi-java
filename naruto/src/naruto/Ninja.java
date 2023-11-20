@@ -62,4 +62,13 @@ public class Ninja {
             System.out.println("Name: " + jutsu.getName() + ", Description: " + jutsu.getDescription());
         }
     }
+
+    public void showNinjaDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Idade: " + age);
+        System.out.println("Clan: " + clan.getName() + " - " + clan.getSymbol());
+        System.out.println("Village: " + village.getName());
+
+        displayJutsus();
+    }
 }

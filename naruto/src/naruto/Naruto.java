@@ -25,4 +25,16 @@ public class Naruto extends Ninja {
     public void setBiju(Biju biju) {
         this.biju = biju;
     }
+
+    @Override
+    public void showNinjaDetails() {
+        System.out.println("Name: " + getName());
+        System.out.println("Idade: " + getAge());
+        System.out.println("Clan: " + getClan().getName() + " - " + getClan().getSymbol());
+        System.out.println("Village: " + getVillage().getName());
+
+        displayJutsus();
+        
+        System.out.println("É Hokage? " + getIsHokage());
+    }
 }
